@@ -1,0 +1,24 @@
+.wfhvideo {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wfhvideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media(min-width: 776px) {
+    .wfhvideo {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }

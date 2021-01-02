@@ -1,0 +1,121 @@
+.footer {
+    padding: 50px 45px;
+    background-color: rgb(136, 21, 52);
+    color: white;
+    text-align: center;
+  }
+  
+  .social-title {
+      font-size: 30px;
+      font-family: 'Copperplate', fantasy;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  a.social {
+    margin: 0 0.5rem;
+    transition: transform 200ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+    background-color: white;
+    color: #eb3223;
+    font-size: 30px;
+  }
+  
+  a.twitter {
+    background-color: white;
+    color: #49a1eb;
+    font-size: 30px;
+  }
+  
+  a.instagram {
+    font-size: 30px;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  
+  a.spotify {
+    color: #1DB954;
+    background-color: black;
+    font-size: 30px;
+  }
+
+  a.googleplus {
+    background-color: white;
+      color: #db4a39;
+      font-size: 30px;
+  }
+
+  a {
+    background-color:transparent;
+    border-radius: 50%;
+    padding: 5px 5px;
+  }
+
+  .address {
+    font-size: 10px;
+    font-family: 'Georgia', serif;
+  }
+
+  @media(min-width: 576px) {
+    .footer{
+      padding: 50px 100px;
+    }
+    .social-title {
+      font-size: 35px;
+  }
+  a.social {
+    margin: 0 1rem;
+  }
+  .address {
+    font-size: 15px;
+  }
+  }
+
+  @media(min-width: 820px) {
+    .footer{
+      padding: 50px 100px;
+    }
+    a.social {
+      margin: 0 2rem;
+    }
+    a.youtube {
+      font-size: 40px;
+    }
+    
+    a.twitter {
+      font-size: 40px;    }
+    
+    a.instagram {
+      font-size: 40px;
+    }
+    
+    a.spotify {
+      font-size: 40px;
+    }
+  
+    a.googleplus {
+      font-size: 40px;
+    }
+    .social-title {
+      font-size: 40px;
+  }
+  a {
+    padding: 10px 10px;
+  }
+  .address {
+    font-size: 20px;
+  }
+  }
