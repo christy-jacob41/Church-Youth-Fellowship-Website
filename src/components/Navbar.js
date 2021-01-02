@@ -1,78 +1,54 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
-
+  const [open, setOpen] = useState(false);
+  const handleClick = () => setOpen(!open);
+  const closeMobileMenu = () => setOpen(false);
   return (
-    <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            MTCDCYF
-          </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+    <nav className ="navbar">
+
+    <div id = "logo_name">
+
+    <Link to='/' onClick={closeMobileMenu}>
+    <img src = '/cmc_logo.JPG' id ="nav_logo"></img>
+    </Link>
+
+    <div ><Link to='/' className ="header_name" onClick={closeMobileMenu}>
+      MTCD Youth Fellowship </Link></div>
+
+    </div>
+
+    <ul id = "nav_links" style={{transform: open ? "translateX(0px)" : ""}}>
+        <li className= "nav_list"><Link to='/' onClick={closeMobileMenu}>
                 Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
+              </Link></li>
+        <li class= "nav_list"><Link
+                to='/about'
                 onClick={closeMobileMenu}
               >
                 About
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
+              </Link></li>
+        <li class= "nav_list"><Link
                 to='/wfhpage'
-                className='nav-links'
                 onClick={closeMobileMenu}
               >
-                WFH
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
+                Livestream
+              </Link></li>
+        <li class= "nav_list"><Link
+                to='/mission'
                 onClick={closeMobileMenu}
               >
-                Log In
-              </Link>
-            </li>
-          </ul>
-          {button && <Button buttonStyle='btn--outline'>Log In</Button>}
-        </div>
-      </nav>
-    </>
+                Mission
+              </Link></li>
+    </ul>
+    <div class="nav_blockobj" onClick={()=> setOpen(!open)}>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </nav>
   );
 }
 
