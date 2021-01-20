@@ -9,7 +9,7 @@ function Home() {
     return (
         <>
             <WFHSection />
-            <Countdown timeTillDate="01 03 2021, 10:00 pm"
+            <Countdown timeTillDate="01 10 2021, 10:00 pm"
                 timeFormat="MM DD YYYY, h:mm a" />
             <Cards />
             <Map />

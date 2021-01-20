@@ -7,7 +7,7 @@ import './WFHSection.css';
 function WFHSection() {
   return (
     <div className='wfhsection-container'>
-      <video src='/videos/WFH - Game Plan.mp4' autoPlay loop muted />
+      <video src='/videos/WFH - Game Plan.mp4' className ="backgroundVideo" autoPlay loop muted />
       <div className='wfhsection-btns'>
         <Link to='/wfhpage'><Button
           className='btns'

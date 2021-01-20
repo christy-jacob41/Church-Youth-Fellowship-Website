@@ -1,0 +1,47 @@
+
+ .BorderlessLogo {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .MissionPageContent {
+      background-color: white;
+  }
+
+  .MissionPageContent h3{
+    font-size: 25px;
+    font-family: 'Copperplate', fantasy;
+    margin-bottom: 0px;
+}
+
+.MissionPageContent p{
+    font-size: 15px;
+    font-family: 'Georgia', serif;
+}
+
+@media(min-width: 576px) {
+    .MissionPageContent h3{
+        font-size: 30px;
+        font-family: 'Copperplate', fantasy;
+        margin-bottom: 0px;
+    }
+    
+    .MissionPageContent p{
+        font-size: 15px;
+        font-family: 'Georgia', serif;
+    }
+  }
+
+  @media(min-width: 820px) {
+    .MissionPageContent h3{
+        font-size: 40px;
+        font-family: 'Copperplate', fantasy;
+        margin-bottom: 0px;
+    }
+    
+    .MissionPageContent p{
+        font-size: 20px;
+        font-family: 'Georgia', serif;
+    }
+  }

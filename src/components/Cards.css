@@ -1,29 +1,53 @@
-.cards {
-    padding: 4rem;
-    background: #fff;
+  .cards-container {
+    display:flex;
+    flex-flow: row wrap;
+    background-color: white;
+    justify-content: flex-start;
   }
-  
-  h1 {
-    text-align: center;
+
+.block-container{
+  flex:2;
+  justify-content: center;
+  text-align: center;
+}
+
+  .block-container iframe {
+    margin: 10px;
+    transition: all .3s;
   }
-  
-  .cards__container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .cards__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
+  .block-container iframe:hover {
+    transform:scale(1.05);
+    outline:2px solid blue;
   }
   
 
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
-  }
+.slider-container {
+  flex:7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.events {
+  font-family: 'Georgia', serif;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+.weather-container {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.weatherwidget-io {
+  border-radius: 0%;
+  width: 314px;
+  text-align: center;
+}
