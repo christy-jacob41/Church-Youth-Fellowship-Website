@@ -1,0 +1,27 @@
+const text = `Mar Thoma Church is a mission oriented church. The Logo of the Church has the words "Lighted to lighten". The emphasis given is that every Mar Thomite should be an evangelist. It was with this intention that the Mission Board was constituted in the Diocese of North America and Europe. The Mexico Mission, Native American Mission, Neighborhood Mission and India Mission are the four wings of the Diocesan Mission.
+Mexico Mission
+There are 45 families living in the housing complex "Colonia Mar Thoma" in Metamoros , Mexico, constructed by the Diocese to rehabilitate the families of poor fishermen. The "manna" program through which food packets are distributed on a weekly basis helps to eradicate starvation and malnutrition in the community, enabling them to seek employment towards self- sufficiency. There are students attending the kindergarten and primary schools in the Colonia and those in higher classes attending schools elsewhere. Students in the middle school, high school and university including one in the medical school receive tuition support. These programs are made possible by the generous contributions and sponsorship of friends and well wishers. A new chapel, as envisioned by the Diocesan Episcopa, has been constructed and will be dedicated as "Jubilee Chapel "in this Silver Jubilee Year of the Diocese. VBS in Spanish and English are held every year in June and the Christmas Carol in December.
+Native American Mission
+The Native American Mission began as part of the effort to reach out our neighbors in North America. Since 2003 the diocese has been working among the Choctaw and Houma Native American communities living in Alabama, Oklahoma and Louisiana. The primary aim is to reach out to this community with Christian love thereby fostering fellowship, deepening Christian faith, providing mentoring , empowering parents and youths and encouraging local leadership. VBS and Youth Conference are held in Mt. Vernon, Alabama among the Choctaw community. Mission programs like VBS are also held among the Choctaw community in Broken Bow, Oklahoma.
+Many community help projects like Clothing and Household Item Collection, Adoption and Foster Care Support, Home for the Homeless, etc. are undertaken for the overall development of these people. For the past 6 years, relief work has been undertaken to restore the lives and homes of Houma Indians, hard hit by Katrina in 2005, in Dulac, Louisiana. Medical Mission camps were also held there.
+Neighborhood Mission
+" Shining Gods light in our neighborhood" is the vision of the church at grassroots level. The Neighborhood Mission strives to serve the local community currently through six distinct areas, namely,
+Good Samaritan Ministry
+Counseling Ministry
+Campus Ministry
+Prison Ministry
+Medical Ministry
+Ecumenical Ministry
+India Mission
+Every year different teams of young people under the leadership and guidance of an adult visit the various mission centers of the Mar Thoma Church in India to get a firsthand knowledge of the mission projects there and to see for themselves the struggle through which the people in the villages pass. In this Jubilee year five such teams visited various mission centers in India and were blessed and strengthened in faith. 
+Light to Life
+Light to Life aims at social transformation and development of communities through holistic development of children. Even amidst the availability of educational institutions, the socio-economic situation in remote villages of India prevents children make use of the facilities. The lack of proper guidance, educational support, proper nutritious food and fair clothing results in discontinuing the studies. This is where the light to life involves. The project is designed to support education, provide nutritious food and sufficient clothing, create congenial environment for emotional, social and spiritual growth to these less privileged children. Each project will have a project center where children will attend afterschool and holiday classes. The centers will be providing them a meal a day. The social workers will be visiting the houses interacting with the parents and provide proper interventions to create a fair environment for the children to focus on studies.
+This support system will help the children grow and achieve their full potential as adults and thereby break the vicious cycle of poverty. This will ultimately change the socio-economic situation of their community.
+The mission board is implementing this project with the partnership with Church related agencies in different states of India. As the first phase, we are reaching out to the following places; Ameri in Chhattisgarh, Kalahandi in Odisha, Dewas in Madhya Pradesh and Vattavada in Kerala.
+A child can be sponsored by pledging $ 20 a month ($240 a year). We support each project for a period of five years, the sponsor has the freedom to choose the duration of sponsorship from a minimum of one year. Each sponsor will be assigned a child. The name, basic details and progress of the child will be communicated to the sponsor.
+We ensure that your hard-earned money and generous contribution will be utilized in a careful and judicious manner.
+You can make a difference
+You could join us in this project to make a difference in the lives of the children. We will be thrilled to hear from you, to guide you with any clarifications you need, and to assist you in any other way we can.
+Get involved and together we can make a change in a child’s life.`;
+
+export default text;

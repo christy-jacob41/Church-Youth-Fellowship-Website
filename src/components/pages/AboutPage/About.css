@@ -1,0 +1,90 @@
+div::-webkit-scrollbar {
+    display: none;
+}
+
+
+.about-sidebar{
+    display:block;
+    position: fixed;
+    height:100%;
+    width:30%;
+    background: rgb(136, 21, 52);
+    align-items: center;
+
+}
+.about-nav a{
+    text-decoration: none;
+    color:black;
+}
+.about-nav:hover{
+    background-color: whitesmoke;
+}
+.about-nav{
+    color:black;
+    background-color: lightgray;
+    height:10%;
+    text-align: center;
+    padding:20%;
+    position:flex;
+    flex-direction: column;
+    
+}
+.about-text{
+    display:flex;
+    flex-direction: column;
+    margin-left: 30%;
+    background-color: whitesmoke;
+}
+.about-container{
+    color:black;
+    height:100%;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+#about_nav_history{
+    padding: 7%;
+    background-color: whitesmoke;
+    background-image: url("background4.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    scroll-snap-align: start;
+}
+
+#about_nav_purpose{
+    padding: 7%;
+    padding-top: 17%;
+    background-color: whitesmoke;
+    background-image: url("background5.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+#about_nav_leadership{
+    padding: 7%;
+    background-color: whitesmoke;
+    background-image: url("background2.jpg");
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+@media screen and (max-width:992px){
+    #about_nav_history{
+        padding: 7%;
+        background-color: whitesmoke;
+        background-image: none; 
+    }
+    
+    #about_nav_purpose{
+        padding: 7%;
+        padding-top: 60%;
+        background-color: whitesmoke;
+        background-image: none;
+    }
+    #about_nav_leadership{
+        padding: 7%;
+        background-color: whitesmoke;
+        background-image: none;
+    }
+}  
